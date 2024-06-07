@@ -1,0 +1,102 @@
+#main-wrapper {
+    width: 550px;
+    height: 550px;
+    border: 1px solid black;
+    margin: 100px auto;
+    background-color: #1F2937;
+}
+
+.heading {
+    width: 355px;
+    height: 80px;
+    margin: 115px 0px 0px 50px;
+    font-family: "Karla";
+    font-weight: 800;
+    font-size: 20px;
+    color: #10B981;
+}
+
+.sub-heading {
+    color: #d5d4d8;
+    font-family: "Inter";
+    margin: 10px 0px 0px 50px;
+    font-size: 20px;
+}
+
+.wht-offset {
+    color: white;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    color: white;
+    background-color: #10B981;
+    border: none;
+}
+
+.line {
+    border-bottom: 1px solid #2F3E53 ;
+    margin-bottom: 35px;
+}
+
+.output {
+    width: 175px;
+    height: 40px;
+    color:#10B981;
+    background-color: #273549;
+    margin-left: 50px;
+}
+
+#psw-one {
+   margin-right: 10px; 
+}
+
+#psw-two {
+    margin-left: 10px;
+}
+
+#control-btns {
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.op-btn:active {
+    background-color: #61edbe;
+}
+
+#length-input {
+    border-radius: 6px;
+    color:#10B981;
+    background-color: #273549;
+    border: 1px solid #10B981;
+}
+#length-input::placeholder {
+   color: #10B981;
+   font-family: "Inter";
+}
+
+.hidden {
+    display: none;
+}
+
+#copy-notification {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #10B981;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    z-index: 1000;
+    display: none;
+    font-family: "Inter";
+    margin-top: 15px;
+}
+
+#copy-notification.show {
+    display: block;
+}
