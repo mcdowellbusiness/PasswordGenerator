@@ -33,7 +33,7 @@ function generate() {
 }
 
 function setPasswordLength() {
-    passwordLength = 5; 
+    passwordLength = passwordLengthEl.value; 
 }
 
 function copyToClipboard(text) {
